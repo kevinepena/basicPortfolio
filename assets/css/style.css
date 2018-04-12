@@ -1,7 +1,7 @@
 body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    background: url("assets/images/verticalWaves.png") silver;
+    background-image: url("../images/verticalWaves.png");
     height: 100%;
     margin: 0;
 }
@@ -39,25 +39,27 @@ footer {
 }
 
 nav {
+    display: inline;
     float: right;
+    margin: 30px 10px;
 
 }
 
 li {
     display: inline;
+    float: right;
 }
 
 h1 {
+    display: inline;
     color: #fff;
-    height: 77px;
-    width: 250px;
     font-weight: bold;
     background-color: #4aaaa5;
-    left: 100px;
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 5pc;
-    padding-left: 30px;
+    line-height: 4pc;
+    padding: 27px 30px;
+    margin: 0;
 }
 h2 {
     font-weight: bold;
@@ -68,7 +70,6 @@ h2 {
 
 }
 p {
-    
     line-height: 30px;
     padding: 12px 30px;
 }
@@ -81,6 +82,10 @@ a {
 a:visited {
     color: #777777;
     float: left;
+}
+
+a:hover {
+    color: #4aaaa5;
 }
 
 img {

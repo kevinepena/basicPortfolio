@@ -79,21 +79,22 @@ h2 {
 
 }
 h3 {
-  position: absolute; 
-  top: 300px; 
-  left: 0; 
-  width: 100%; 
+    position: absolute;
+    top: 146px;
+    left: 30px;
+    display: inline;
+    background-color: #4aaaa5;
+    padding: 0px 46px 0px 0px;
+    text-: center;
+    font-size: 20px;
+    line-height: 3;
+
 
 }
 
 h3 span { 
-    color: white; 
-    font: bold 24px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.4);
-    padding: 10px; 
-
+    color: white;  
+    padding-left: 48px;
  }
 
 p {
@@ -126,10 +127,8 @@ a:hover {
 .portfolioImg {
     width: 200px;
     height: 200px;
-    padding: 0 30px;
-    margin: 20px auto;
     display: inline;
-    float: left;
+    padding: 10px 30px;
 }
 
 hr {
@@ -141,8 +140,9 @@ hr {
 }
 
 .divPics {
-    position: relative; 
-   width: 100%;
+    position: relative;
+    display: inline;
+    float: left;
 }
 
 /* ------------- */

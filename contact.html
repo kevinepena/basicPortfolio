@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
         <section class="header">
-            <a href="index.html"><h1>Kevin Peña</h1></a>
+            <a href="index.html">
+                <h1>Kevin Peña</h1>
+            </a>
             <nav>
                 <ul>
                     <li>&nbsp;|
-                        <a href="index.html">About </a>
+                        <a href="contact.html">Contact </a>
                     </li>
                     <li>&nbsp;|&nbsp;
                         <a href="portfolio.html">Portfolio&nbsp;</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact&nbsp;</a>
-                    </li>
+                        <a href="index.html">About&nbsp;</a>
                 </ul>
             </nav>
         </section>
@@ -32,6 +33,29 @@
     <section class="main">
         <h2>Contact</h2>
         <hr>
+
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Name">
+
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="example@mail.com">
+
+            <br>
+
+            <label for="message">Message</label>
+            <br>
+            <input type="text" id="message" name="message" placeholder="">
+            </select>
+            <br>
+            <input type="button" value="Submit" id="submit">
+        </form>
+
+
     </section>
     <footer class="footer">
         Copyright&copy;
